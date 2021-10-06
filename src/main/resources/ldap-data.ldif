@@ -1,0 +1,61 @@
+dn: dc=springframework,dc=org
+objectclass: top
+objectclass: domain
+objectclass: extensibleObject
+dc: springframework
+
+dn: ou=groups,dc=springframework,dc=org
+objectclass: top
+objectclass: organizationalUnit
+ou: groups
+
+dn: ou=subgroups,ou=groups,dc=springframework,dc=org
+objectclass: top
+objectclass: organizationalUnit
+ou: subgroups
+
+dn: ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: organizationalUnit
+ou: people
+
+
+dn: uid=pau,ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Pau
+sn: Pau
+uid: pau
+userPassword: $2y$10$6h/j3BNXAhzBurUDYgQlxu2pdsOHae5jdveXq6iEWzRQzoDEiRfI6
+
+dn: uid=paqui,ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Paqui
+sn: Paqui
+uid: paqui
+userPassword: $2y$10$6h/j3BNXAhzBurUDYgQlxu2pdsOHae5jdveXq6iEWzRQzoDEiRfI6
+
+dn: uid=asier,ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Asier
+sn: Asier
+uid: asier
+userPassword: $2y$10$6h/j3BNXAhzBurUDYgQlxu2pdsOHae5jdveXq6iEWzRQzoDEiRfI6
+
+dn: uid=sofia,ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Sofia
+sn: Sofia
+uid: sofia
+userPassword: $2y$10$6h/j3BNXAhzBurUDYgQlxu2pdsOHae5jdveXq6iEWzRQzoDEiRfI6
