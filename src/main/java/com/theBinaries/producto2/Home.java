@@ -8,7 +8,7 @@ public class Home {
 
     @GetMapping("/")
     public String index(){
-        return "Home page";
+        return "<h1>Inicio completo</h1>";
     }
 
 }
