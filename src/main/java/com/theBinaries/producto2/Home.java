@@ -10,9 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class Home {
 
-    @RequestMapping("/mensaje")
-    public String mensaje() {
 
-        return "mensaje";
+    @GetMapping("/")
+    public String index(){
+        return "<h1>Inicio completo</h1>";
     }
+
 }
