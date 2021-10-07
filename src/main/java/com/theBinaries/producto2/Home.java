@@ -13,7 +13,7 @@ public class Home {
 
     @GetMapping("/")
     public String index(){
-        return "<h1>Inicio completo, todo ha salido bien</h1>";
+        return "<h1>Inicio completo producto 2</h1>";
     }
 
 }
