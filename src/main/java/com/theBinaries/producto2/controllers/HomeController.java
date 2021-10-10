@@ -21,8 +21,9 @@ public class HomeController {
 	        return "error";
 	    }
 	  @RequestMapping("/new-game")
-	    public String newGame() {         
-	        return "new-game";
+	    public String newGame() {
+
+		 return "new-game";
 	    }
 	  @RequestMapping("/game")
 	    public String game() {

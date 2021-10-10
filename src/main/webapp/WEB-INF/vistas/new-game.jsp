@@ -1,4 +1,5 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 
@@ -17,8 +18,10 @@
 	<div>
 		<form method="post" modelAttribute="newgame">
 			<div class="username">
-				<label>Username: </label>
-				<input name = "user"/>
+				<label >Username: </label>
+				<input type="text"  name="user" value="<security:authorize access="isAuthenticated()">
+		<security:authentication property="principal.username" />
+	</security:authorize>">
 			</div>
 		<div class="words">
 			<label>Words: </label>
@@ -33,5 +36,9 @@
 	</div>
 	
 	</div>
+
+	<security:authorize access="isAuthenticated()">
+		authenticated as <security:authentication property="principal.username" />
+	</security:authorize>
 </body>
 </html>
