@@ -22,6 +22,7 @@
 				<input type="text"  name="user" value="<security:authorize access="isAuthenticated()">
 		<security:authentication property="principal.username" />
 	</security:authorize>">
+
 			</div>
 		<div class="words">
 			<label>Words: </label>
