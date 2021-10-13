@@ -13,7 +13,7 @@
 <body>
 	<div>
 		<h1>THE BINARIES</h1>
-		 <h2>Autentication Web App</h2>
+		 <h2>Authentication Web App</h2>
 		<h4>Please enter your credentials!</h4>
 		
 
