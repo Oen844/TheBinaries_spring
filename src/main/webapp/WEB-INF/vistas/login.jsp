@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div>
-		<h1>BACK-EE-NDS</h1>
+		<h1>THE BINARIES</h1>
 		 <h2>Autentication Web App</h2>
 		<h4>Please enter your credentials!</h4>
 		
