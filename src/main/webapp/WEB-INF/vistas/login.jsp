@@ -12,9 +12,9 @@
 </head>
 <body>
 	<div>
-		<h1>BACK-EE-NDS</h1>
-		 <h2>Autentication Web App</h2>
-		<h4>Please enter your credentials!</h4>
+		<h1>THE BINARIES</h1>
+		 <h2>Bienvenidos a nuestro juego</h2>
+		<h4>Introduzca usuario y contraseña</h4>
 		
 
 		<form method="POST" action="/login">
