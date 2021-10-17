@@ -14,7 +14,7 @@
 	<div>
 		<h1>Titulo</h1>
 		 <h2>Autentication Web App</h2>
-		<h4>Please enter your credentials!</h4>
+		<h4>Introduce tus credenciales</h4>
 		
 
 		<form method="POST" action="/login">
