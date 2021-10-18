@@ -5,10 +5,11 @@ body{
 	justify-content:center;
 	align-items:center;
 	margin: 12em;
+	background: url("../imagenes/letrascolores.png");
 }
 .container{
 	font-family:sans-serif;
-	background-color: grey;
+	background-color: #05991d;
 	border:none;
 	border-radius: 10px;
 	padding: 15px;
@@ -16,11 +17,11 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items:center;
-	width: 50em;
+	width: 800px;
 }
 .footer{
 	display: flex;
-	justify-content: center;
+	justify-content: right;
 	align-items: center;
 	padding: 10px;
 	margin: 10px;
@@ -28,14 +29,14 @@ body{
 	
 	border: none;
 	background-color: #cccccc;
-	width: 18em;
-	height: 6em;
+	width: 250px;
+	height: 40px;
 	
 }
 .words{
-	width: 11em !important;
+	width: 350px !important;
 	padding: 10px;
-	height: 10em;
+	height: 350px;
 	border:none;
 	border-radius: 10px;
 	background-color: #ddf0df;
@@ -54,10 +55,9 @@ body{
 	margin: 10px;
 	height: 2em;
 	border-radius: 5px;
-	background-color: black;
+	background-color: coral;
 	color:white;
 	font-weight: bold;
-	font-style:italic;
-	font-size:19px;
+	font-size:18px;
 	outline:none;
 }

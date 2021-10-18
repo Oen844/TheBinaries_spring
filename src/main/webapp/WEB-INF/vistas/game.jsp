@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sopa de letras</title>
+  <title>The Binaries - Sopa de letras</title>
  	<link href="css/game.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/css/wordfind.css">
     <script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
@@ -75,7 +75,7 @@
 </head>
 <body onload="empezarDetener()">
 	<div class="container">
-	     <h1>Let's play!</h1>
+	     <h1>¡Vamos a jugar!</h1>
 		<div class="sopaletras">
 		  	 <div id='juego'></div>
 	   		 <div id='Palabras' class="words"></div>
@@ -87,7 +87,7 @@
 					<form method="post" modelAttribute="game">
 						<input type="hidden" id="score" name="score">
 				 		<input type="hidden" id="duration" name="duration">
-				 		<button type="submit" id='solve' class="btnSolve" onclick="diferencia(inicio,actual)">Resolver</button>
+				 		<button type="submit" id='solve' class="btnSolve" onclick="diferencia(inicio,actual)">Solución</button>
 					</form>
 		</div>
 	</div>

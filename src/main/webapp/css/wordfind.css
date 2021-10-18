@@ -95,4 +95,5 @@ button::-moz-focus-inner {
 */
 #solve {
   margin: 0 30px;
+  justify-content:center;
 }
