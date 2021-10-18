@@ -40,11 +40,10 @@ button{
 	margin: 10px;
 	height: 2em;
 	border-radius: 5px;
-	background-color: black;
+	background-color: coral;
 	color:white;
 	font-weight: bold;
-	font-style:italic;
-	font-size:19px;
+	font-size:18px;
 	outline:none;
 }
 a{
