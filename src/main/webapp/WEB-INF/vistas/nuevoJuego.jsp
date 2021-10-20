@@ -8,7 +8,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>The Binaries - Nuevo juego</title>
-<link href="css/newgame.css" rel="stylesheet" type="text/css">
+<link href="css/nuevoJuego.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div class="bienvenida">
@@ -16,7 +16,7 @@
 		<h1>¡Nuevo juego!</h1>
 	</div>
 	<div>
-		<form method="post" modelAttribute="newgame">
+		<form method="post" modelAttribute="nuevoJuego">
 			<div class="username">
 				<label >Nombre usuario: </label>
 				<input type="text"  name="user" value="<security:authorize access="isAuthenticated()">
@@ -38,8 +38,23 @@
 	
 	</div>
 
-	<security:authorize access="isAuthenticated()">
-		authenticated as <security:authentication property="principal.username" />
-	</security:authorize>
+	<div id=container>
+		Bienvenido
+		<div id=flip>
+			<div><div>Sopa</div></div>
+			<div><div>The Binaries</div></div>
+			<div><div>de letras</div></div>
+
+		</div>
+		<security:authorize access="isAuthenticated()">
+			  <security:authentication property="principal.username" />
+		</security:authorize>
+	</div>
+
+
+
+	<h4><security:authorize access="isAuthenticated()">
+		Bienvenido  <security:authentication property="principal.username" />
+	</security:authorize></h4>
 </body>
 </html>

@@ -14,7 +14,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
         http.csrf().disable().authorizeRequests()
                 .and().formLogin().loginPage("/login").permitAll()
-                .defaultSuccessUrl("/new-game", true)
+                .defaultSuccessUrl("/nuevoJuego", true)
                 .failureUrl("/login?error=true");
 
 
