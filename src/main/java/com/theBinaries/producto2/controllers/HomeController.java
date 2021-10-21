@@ -20,18 +20,18 @@ public class HomeController {
 	    public String denied() {         
 	        return "error";
 	    }
-	  @RequestMapping("/new-game")
-	    public String newGame() {
+	  @RequestMapping("/nuevoJuego")
+	    public String nuevoJuego() {
 
-		 return "new-game";
+		 return "nuevoJuego";
 	    }
-	  @RequestMapping("/game")
-	    public String game() {
-			return "game";
+	  @RequestMapping("/juego")
+	    public String juego() {
+			return "juego";
 	    } 
-	  @RequestMapping("/all-games")
-	    public String allGames() {         
-	        return "all-games";
+	  @RequestMapping("/lista")
+	    public String lista() {
+	        return "lista";
 	    }
 
 }

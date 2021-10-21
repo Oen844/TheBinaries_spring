@@ -31,5 +31,10 @@ public class Juego {
     @Column(name = "username")
     private String username;
 
-
+    public Juego(int id, int duracion, int puntos, String username) {
+        this.id = id;
+        this.duracion = duracion;
+        this.puntos = puntos;
+        this.username = username;
+    }
 }

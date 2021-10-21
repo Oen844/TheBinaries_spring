@@ -22,6 +22,8 @@ public class Palabra {
     @Column(name = "palabra")
     private String palabra;
 
-
-
+    public Palabra(int id, String palabra) {
+        this.id = id;
+        this.palabra = palabra;
+    }
 }
