@@ -3,7 +3,7 @@
 
 
 <h1 align="center"> THE BINARIES</h1>
-<h2 align="center"> PRODUCTO 3. XXXXXXX.</h1>
+<h2 align="center"> PRODUCTO 3. Desarrollo e implementación de la aplicación</h1>
 
 <p align="center"> </p>
 <p align="center"><https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.uoc.edu%2F&psig=AOvVaw1sId4QjhKxHq-VzHqiqRrR&ust=1633302964075000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOjMuuztrPMCFQAAAAAdAAAAABAD></p> 
@@ -11,9 +11,8 @@
 ## Tabla de contenidos:
 ---
 - # Descripción
-Los datos de la aplicación estarán almacenados en una base de datos relacional, así
-pues, teniendo en cuenta que se aplicarán los patrones de diseño MVC y DAO, se
-realizarán las actividades necesarias para la persistencia de los datos.
+Implementar y desarrollar un programa de sopa de letras diseñando la interfaz
+gráfica e implementando las capas Vista y Controlador.
  
  
  # Autores
