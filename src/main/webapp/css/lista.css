@@ -6,7 +6,7 @@ body{
 	align-items:center;
 	background: url("../imagenes/letrascolores.png");
 }
-.welcome{
+.bienvenida{
 	display: flex;
 	flex-direction:column;
 	justify-content:center;
@@ -19,7 +19,7 @@ body{
 	border-radius: 10px;
 	padding: 25px;
 }
-.btnNewGame{
+.btnNuevoJuego{
 	margin: 10px;
 	height: 2em;
 	border-radius: 5px;

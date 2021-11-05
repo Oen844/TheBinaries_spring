@@ -13,7 +13,34 @@
 </head>
 <body>
 	<h1>Lista de todas las tablas</h1>
+	<table border="1" cellpadding="5" class="table">
+		<thead class="thead-dark">
+		<tr>
+			<th  scope="col">#</th>
+			<th scope="col">Name</th>
+			<th scope="col">Date</th>
+			<th scope="col">Duration</th>
+			<th scope="col">Score</th>
+		</tr>
+		</thead>
+		<% int i = 1; %>
+		<c:forEach var="game" items="${scores}">
+			<tr>
+				<td scope="row"><%=i++%></td>
+				<td><c:out value="${game.username}" /></td>
+				<td><c:out value="${game.gameDate}" /></td>
+				<td><c:out value="${game.duration}" /></td>
+				<td><c:out value="${game.score}" /></td>
+			</tr>
+		</c:forEach>
+	</table>
 
+	</table>
+	</div>
+	<form method="post">
+		<button type="submit" id='newgame' class="btnNewGame">NEW GAME</button>
+	</form>
+	</div>
 
 </body>
 </html>
