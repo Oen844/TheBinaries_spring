@@ -23,14 +23,14 @@ import com.sopa.services.*;
 
 public class NuevoJuegoController {
     @Autowired
-    WordService wordServ;
+    PalabraService wordServ;
     @Autowired
-    UserService userServ;
+    UsersService userServ;
 
     @RequestMapping(method = RequestMethod.POST)
-    public RedirectView gameData(NewGame newGame) throws SQLException {
+    public RedirectView gameData(NuevoJuego newGame) throws SQLException {
         System.out.println("Username= " + newGame.getUser());
-        String name = newGame.getUsers();
+        String name = newGame.getUser();
         if(name != "") {
             Users newUser = new Users(name);
             userServ.addUser(newUser);
@@ -42,23 +42,23 @@ public class NuevoJuegoController {
         String w5 = newGame.getWord5();
 
         if(w1 != "") {
-            Word word1 = new Word(w1);
+            Palabra word1 = new Palabra(w1);
             wordServ.addWord(word1);
         }
         if(w2 != "") {
-            Word word2 = new Word(w2);
+            Palabra word2 = new Palabra(w2);
             wordServ.addWord(word2);
         }
         if(w3 != "") {
-            Word word3 = new Word(w3);
+            Palabra word3 = new Palabra(w3);
             wordServ.addWord(word3);
         }
         if(w4 != "") {
-            Word word4 = new Word(w4);
+            Palabra word4 = new Palabra(w4);
             wordServ.addWord(word4);
         }
         if(w5 != "") {
-            Word word5 = new Word(w5);
+            Palabra word5 = new Palabra(w5);
             wordServ.addWord(word5);
         }
 

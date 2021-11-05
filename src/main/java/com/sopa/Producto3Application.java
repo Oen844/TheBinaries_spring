@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 
-public class Producto2Application {
+public class Producto3Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Producto2Application.class, args);
+		SpringApplication.run(Producto3Application.class, args);
 	}
 
 }

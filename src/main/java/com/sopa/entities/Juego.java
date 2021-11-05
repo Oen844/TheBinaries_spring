@@ -28,6 +28,10 @@ public class Juego {
         this.username = username;
     }
 
+    public Juego(int duracion, int puntos, Juego juego) {
+
+    }
+
     public int getId() {
         return id;
     }
