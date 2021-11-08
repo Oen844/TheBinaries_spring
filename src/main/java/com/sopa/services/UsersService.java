@@ -4,10 +4,10 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 
+import com.sopa.models.Users;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.sopa.entities.Users;
 import com.sopa.repositories.UsersRepository;
 
 @Component

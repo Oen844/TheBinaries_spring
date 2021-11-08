@@ -37,4 +37,7 @@ public class Juego {
         this.puntos = puntos;
         this.username = username;
     }
+
+    public Juego(int duracion, int puntos, Juego juego) {
+    }
 }

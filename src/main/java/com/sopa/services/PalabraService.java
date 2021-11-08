@@ -1,22 +1,23 @@
 package com.sopa.services;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.EntityManager;
 
+import com.sopa.models.Palabra;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.sopa.entities.Palabra;
 import com.sopa.repositories.PalabraRepository;
 
 
 @Component
-
 public class PalabraService {
+
     @Autowired
-    PalabraRepository wordRepo;
+    PalabraRepository palabraRepo;
 
     protected EntityManager em;
 
@@ -24,14 +25,14 @@ public class PalabraService {
         this.em = em;
     }
 
-    public List<Palabra> getAllWords(){
-        List<Palabra> wordList = new ArrayList<>();
-        wordRepo.findAll().forEach(wordList::add);
-        return wordList;
+    public List<Palabra> getAllPalabras(){
+        List<Palabra> palabraList = new ArrayList<>();
+        palabraRepo.findAll().forEach(palabraList::add);
+        return palabraList;
     }
 
-    public Palabra addWord(Palabra palabra) {
-        palabra = wordRepo.save(palabra);
+    public Palabra addPalabra(Palabra palabra) {
+        palabra = palabraRepo.save(palabra);
         return palabra;
     }
 
