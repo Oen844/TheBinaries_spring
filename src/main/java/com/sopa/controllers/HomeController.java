@@ -10,28 +10,35 @@ public class HomeController {
 
 	 @RequestMapping("/")
 	    public String defaultHome() {         
-	        return "login";
+		 return "login";
 	    }
+
 	 @RequestMapping("/login")
 	    public String login() {         
-	        return "login";
+		 return "login";
 	    }
+
 	 @RequestMapping("/denied")
 	    public String denied() {         
-	        return "error";
+		 return "error";
 	    }
+
 	  @RequestMapping("/nuevoJuego")
 	    public String nuevoJuego() {
-
 		 return "nuevoJuego";
 	    }
+
 	  @RequestMapping("/juego")
 	    public String juego() {
-			return "juego";
-	    } 
+		 return "juego";
+	    }
+
 	  @RequestMapping("/lista")
 	    public String lista() {
-	        return "lista";
+
+
+
+		 return "lista";
 	    }
 
 }

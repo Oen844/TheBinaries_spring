@@ -16,7 +16,7 @@
 
 </head>
 <h1>Juego Sopa de Letras</h1>
-<link href="css/game.css" rel="stylesheet" type="text/css">
+<link href="css/juego.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="/css/wordfind.css">
 <script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="/wordfind/wordfind.js"></script>
@@ -38,7 +38,7 @@
     else if(points >= 4970){
       points = 5000;
     }
-    document.getElementById("score").value = points;
+    document.getElementById("score").value = puntos;
     document.getElementById("duration").value = seconds;
     return seconds,points;
   }
@@ -84,18 +84,18 @@
 </head>
 <body onload="empezarDetener()">
 <div class="container">
-  <h1>Let's play!</h1>
+  <h1>¡Comenzamos el juego!</h1>
   <div class="sopaletras">
     <div id='juego'></div>
-    <div id='Palabras' class="words"></div>
+    <div id='Palabras' class="palabras"></div>
   </div>
   <div class="footer">
     <div class="crono_wrapper">
       <h2 id='crono'>00:00:00</h2>
     </div>
-    <form method="post" modelAttribute="game">
-      <input type="hidden" id="score" name="score">
-      <input type="hidden" id="duration" name="duration">
+    <form method="post" modelAttribute="juego">
+      <input type="hidden" id="puntos" name="puntos">
+      <input type="hidden" id="duracion" name="duracion">
       <button type="submit" id='solve' class="btnSolve" onclick="diferencia(inicio,actual)">Resolver</button>
     </form>
   </div>
@@ -106,38 +106,38 @@
 
 
 <script>
-  var words = [];
+  var palabras = [];
   var word1 = "${palabras[0]}";
   if (word1 != "")
   {
-    words.push(word1);
+    palabras.push(word1);
   }
   var word2 = "${palabras[1]}";
   if (word2 != "")
   {
-    words.push(word2);
+    palabras.push(word2);
   }
   var word3 = "${palabras[2]}";
   if (word3 != "")
   {
-    words.push(word3);
+    palabras.push(word3);
   }
   var word4 = "${palabras[3]}";
   if (word4 != "")
   {
-    words.push(word4);
+    palabras.push(word4);
   }
   var word5 = "${palabras[4]}";
   if (word5 != "")
   {
-    words.push(word5);
+    palabras.push(word5);
   }
-  var gamePuzzle = wordfindgame.create(words, '#juego', '#Palabras');
+  var gamePuzzle = wordfindgame.create(palabras, '#juego', '#Palabras');
 
-  var puzzle = wordfind.newPuzzle(words,{height: 18, width:18, fillBlanks: false});
+  var puzzle = wordfind.newPuzzle(palabras,{height: 18, width:18, fillBlanks: false});
   wordfind.print(puzzle);
 
-  $('#solve').click( function() {wordfindgame.solve(gamePuzzle, words);});
+  $('#solve').click( function() {wordfindgame.solve(gamePuzzle, wpalabras);});
 
 </script>
 

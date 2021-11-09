@@ -2,14 +2,12 @@ package com.sopa.services;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import javax.persistence.EntityManager;
 
-import com.sopa.models.Juego;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-
+import com.sopa.models.Juego;
 import com.sopa.repositories.JuegoRepository;
 
 

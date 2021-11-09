@@ -12,25 +12,25 @@
  
 </head>
 <body>
-	<h1>Lista de todas las tablas</h1>
+	<h1>Listado de los resultados</h1>
 	<table border="1" cellpadding="5" class="table">
 		<thead class="thead-dark">
 		<tr>
-			<th  scope="col">#</th>
-			<th scope="col">Name</th>
-			<th scope="col">Date</th>
-			<th scope="col">Duration</th>
-			<th scope="col">Score</th>
+			<th scope="col">#</th>
+			<th scope="col">Nombre</th>
+			<th scope="col">Fecha</th>
+			<th scope="col">Duración</th>
+			<th scope="col">Puntos</th>
 		</tr>
 		</thead>
 		<% int i = 1; %>
-		<c:forEach var="game" items="${scores}">
+		<c:forEach var="juego" items="${puntos}">
 			<tr>
 				<td scope="row"><%=i++%></td>
-				<td><c:out value="${game.username}" /></td>
-				<td><c:out value="${game.gameDate}" /></td>
-				<td><c:out value="${game.duration}" /></td>
-				<td><c:out value="${game.score}" /></td>
+				<td><c:out value="${juego.username}" /></td>
+				<td><c:out value="${juego.gameDate}" /></td>
+				<td><c:out value="${juego.duracion}" /></td>
+				<td><c:out value="${juego.puntos}" /></td>
 			</tr>
 		</c:forEach>
 	</table>
@@ -38,7 +38,7 @@
 	</table>
 	</div>
 	<form method="post">
-		<button type="submit" id='newgame' class="btnNewGame">NEW GAME</button>
+		<button type="submit" id='nuevoJuego' class="btnNuevoJuego">NUEVO JUEGO</button>
 	</form>
 	</div>
 

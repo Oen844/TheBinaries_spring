@@ -1,20 +1,21 @@
 package com.sopa.services;
+
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.EntityManager;
 
-import com.sopa.models.Users;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.sopa.repositories.UsersRepository;
+import com.sopa.models.Users;
 
 @Component
 
 public class UsersService {
     @Autowired
-    UsersRepository userRepo;
+    UsersRepository usersRepo;
 
     protected EntityManager em;
 
@@ -22,15 +23,15 @@ public class UsersService {
         this.em = em;
     }
 
-    public Users lastUser() {
-        List<Users> userList = new ArrayList<>();
-        userRepo.findAll().forEach(userList::add);
-        int size = userList.size();
-        Users user = userList.get(size - 1);
-        return user;
+    public Users lastUsers() {
+        List<Users> usersList = new ArrayList<>();
+        usersRepo.findAll().forEach(usersList::add);
+        int size = usersList.size();
+        Users users = usersList.get(size - 1);
+        return users;
     }
-    public Users addUser(Users user) {
-        user = userRepo.save(user);
-        return user;
+    public Users addUsers(Users users) {
+        users = usersRepo.save(users);
+        return users;
     }
 }

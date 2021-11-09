@@ -1,61 +1,61 @@
 package com.sopa.models;
 
 public class NuevoJuego {
-    public String user;
-    public String word1;
-    public String word2;
-    public String word3;
-    public String word4;
-    public String word5;
+    public String users;
+    public String palabra1;
+    public String palabra2;
+    public String palabra3;
+    public String palabra4;
+    public String palabra5;
 
     public NuevoJuego() {
 
     }
 
-    public NuevoJuego(String user, String word1, String word2, String word3, String word4, String word5) {
-        this.user = user;
-        this.word1 = word1;
-        this.word2 = word2;
-        this.word3 = word3;
-        this.word4 = word4;
-        this.word5 = word5;
+    public NuevoJuego(String users, String palabra1, String palabra2, String palabra3, String palabra4, String palabra5) {
+        this.users = users;
+        this.palabra1 = palabra1;
+        this.palabra2 = palabra2;
+        this.palabra3 = palabra3;
+        this.palabra4 = palabra4;
+        this.palabra5 = palabra5;
     }
 
-    public String getUser() {
-        return user;
+    public String getUsers() {
+        return users;
     }
-    public void setUser(String user) {
-        this.user = user;
+    public void setUsers(String users) {
+        this.users = users;
     }
-    public String getWord1() {
-        return word1;
+    public String getPalabra1() {
+        return palabra1;
     }
-    public void setWord1(String word1) {
-        this.word1 = word1;
+    public void setPalabrad1(String palabra1) {
+        this.palabra1 = palabra1;
     }
-    public String getWord2() {
-        return word2;
+    public String getPalabra2() {
+        return palabra2;
     }
-    public void setWord2(String word2) {
-        this.word2 = word2;
+    public void setPalabra2(String palabra2) {
+        this.palabra2 = palabra2;
     }
-    public String getWord3() {
-        return word3;
+    public String getPalabra3() {
+        return palabra3;
     }
-    public void setWord3(String word3) {
-        this.word3 = word3;
+    public void setPalabra3(String palabra3) {
+        this.palabra3 = palabra3;
     }
-    public String getWord4() {
-        return word4;
+    public String getPalabra4() {
+        return palabra4;
     }
-    public void setWord4(String word4) {
-        this.word4 = word4;
+    public void setPalabra4(String palabra4) {
+        this.palabra4 = palabra4;
     }
-    public String getWord5() {
-        return word5;
+    public String getPalabra5() {
+        return palabra5;
     }
-    public void setWord5(String word5) {
-        this.word5 = word5;
+    public void setPalabra5(String palabra5) {
+        this.palabra5 = palabra5;
     }
 
 }
