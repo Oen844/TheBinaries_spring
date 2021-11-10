@@ -7,7 +7,10 @@
 <html>
 <head>
   <title>Sopa de letras</title>
+
  	<link href="css/juego.css" rel="stylesheet" type="text/css">
+	<link href="css/time.css" rel="stylesheet" type="text/css">
+
     <link rel="stylesheet" type="text/css" href="/css/wordfind.css">
     <script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
     <script type="text/javascript" src="/wordfind/wordfind.js"></script> 
@@ -91,8 +94,15 @@
 					</form>
 		</div>
 	</div>
-	
-		 	
+
+	<div class="circle">
+		<div class="up">
+			<div class="innera"></div>
+		</div>
+		<div class="down">
+			<div class="innerb"></div>
+		</div>
+	</div>
   
  
  	
