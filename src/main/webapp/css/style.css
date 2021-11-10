@@ -4,19 +4,17 @@ body{
 	flex-direction:column;
 	justify-content:center;
 	align-items:center;
-	background: url("../imagenes/letrascolores.png");
 }
 div{
 	display: flex;
 	flex-direction:column;
 	justify-content:center;
 	align-items:center;
-	width: 500px;
+	width: 400px;
 	height: 350px;
-	background-color:#05991d;
-	margin-top:10%;
+	background-color:#acb0ad; 
+	margin-top:7%;
 	border-radius: 10px;
-
 }
 
 .error{
@@ -26,7 +24,7 @@ div{
 	margin-bottom:20px;
 	
 }
-.bienvenida{
+.welcome{
 	display: flex;
 	flex-direction:column;
 	justify-content:center;
@@ -34,4 +32,3 @@ div{
 	width: 62em;
 	height: 35em;
 }
-
