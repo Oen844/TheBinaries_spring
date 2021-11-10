@@ -33,6 +33,12 @@
 				</a>
 			</li>
 
+			<li>
+				<a href="/logout">
+					<i class="zmdi zmdi-link"></i> Logout
+				</a>
+			</li>
+
 		</ul>
 	</div>
 	<!-- Content -->
