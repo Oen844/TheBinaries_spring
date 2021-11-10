@@ -14,6 +14,7 @@
 	<div>
 		<h1>Create a new Game!</h1>
 	</div>
+		
 	<div>
 		<form method="post" modelAttribute="newgame">
 			<div class="username">
