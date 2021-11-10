@@ -26,12 +26,12 @@ body{
 	padding: 10px;
 	margin: 10px;
 	border-radius: 10px;
-	
+
 	border: none;
 	background-color: #cccccc;
 	width: 250px;
 	height: 40px;
-	
+
 }
 .words{
 	width: 350px !important;
@@ -43,7 +43,7 @@ body{
 	margin-top: 2em;
 	margin-left: 4em;
 	margin-right:0;
-	-webkit-box-shadow: 4px 2px 15px 1px rgba(0,0,0,0.87); 
+	-webkit-box-shadow: 4px 2px 15px 1px rgba(0,0,0,0.87);
 	box-shadow: 4px 2px 15px 1px rgba(0,0,0,0.87);
 	display: flex;
 	flex-direction: column;
