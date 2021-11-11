@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
 body{
 	font-family:sans-serif;
 	display:flex;
@@ -5,6 +6,10 @@ body{
 	justify-content:center;
 	align-items:center;
 	background: url("../imagenes/letrascolores.png");
+	overflow-x: hidden;
+	font-size: 16px;
+	margin:0px;
+	text-align:center;
 }
 .bienvenida{
 	display: flex;
@@ -12,8 +17,8 @@ body{
 	justify-content:center;
 	align-items:center;
 	align-content:center;
-	width: 320px;
-	height: 368px;
+	width: 500px;
+	height: 350px;
 	background-color:#05991d;
 	margin-top:10%;
 	border-radius: 10px;
@@ -53,21 +58,11 @@ a{
 }
 
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
-
-body {
-	margin:0px;
-	font-family:'Roboto';
-	text-align:center;
-}
-
 #container {
 	color:#ca4ef37f3;
 	text-transform: uppercase;
-	font-size:36px;
+	font-size:25px;
 	font-weight:bold;
-
-
 	width:100%;
 	bottom:45%;
 	display:block;
@@ -118,4 +113,72 @@ p {
 	font-size:12px;
 	color:#999;
 	margin-top:200px;
+}
+#viewport {
+	padding-left: 250px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#content {
+	width: 100%;
+	position: relative;
+	margin-right: 0;
+}
+
+/* Sidebar Styles */
+
+#sidebar {
+	z-index: 1000;
+	position: fixed;
+	left: 250px;
+	width: 250px;
+	height: 100%;
+	margin-left: -250px;
+	overflow-y: auto;
+	background: #05991d;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#sidebar header {
+	background-color: #263238;
+	font-size: 20px;
+	line-height: 52px;
+	text-align: center;
+}
+
+#sidebar header a {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+
+#sidebar header a:hover {
+	color: #fff;
+}
+
+#sidebar .nav{
+
+}
+
+#sidebar .nav a{
+	background: none;
+	border-bottom: 1px solid #455A64;
+	color: #CFD8DC;
+	font-size: 14px;
+	padding: 16px 24px;
+}
+
+#sidebar .nav a:hover{
+	background: none;
+	color: #ECEFF1;
+}
+
+#sidebar .nav a i{
+	margin-right: 16px;
 }
