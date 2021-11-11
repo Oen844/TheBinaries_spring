@@ -9,8 +9,8 @@
 	<meta charset="ISO-8859-1">
 	<title>The Binaries - Nuevo juego</title>
 
-	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 	<link href="css/navbar.css" rel="stylesheet" type="text/css">
 	<link href="css/nuevoJuego.css" rel="stylesheet" type="text/css">
 </head>
@@ -56,11 +56,9 @@
 				</ul>
 			</div>
 		</nav>
+		<div class="contenido">
 		<div class="container-fluid">
-			<p>
 
-
-			<p>
 			<div class="bienvenida">
 				<div>
 					<h1>¡Nuevo juego!</h1>
@@ -111,6 +109,9 @@
 		</div>
 	</div>
 </div>
+
+</div>
+
 
 </body>
 </html>
