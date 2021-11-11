@@ -101,7 +101,7 @@
     </div>
 </div>
 
-<div id = "canvas">
+<div class = "canvas">
     <div><canvas id="drawing_canvas"></canvas></div>
 </div>
 
