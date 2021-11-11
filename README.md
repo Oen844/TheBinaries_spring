@@ -22,9 +22,9 @@ Los frameworks y APIs usados mas importantes para este proyecto han sido:
 - **Intellij**: IDE inteligente y sensible al contexto para trabajar con Java y otros lenguajes JVM.
 - **Spring**: Framework para el desarrollo de aplicaciones y contenedor de inversión de control, de código abierto para la plataforma Java.
 - **AJAX**: Técnica en desarrollo web que consiste en la mezcla de tecnologías existentes:
-- XML / XSLT para el envío de datos en XML del servidor al cliente (aunque también puede ser texto plano).
-- DOM + Javascript para la manipulación de los datos enviados del servidor.
-- HTML / XHTML + CSS que involucra a la presentación en lado del cliente.
+   - `XML / XSLT` para el envío de datos en XML del servidor al cliente (aunque también puede ser texto plano).
+   - `DOM + Javascript` para la manipulación de los datos enviados del servidor.
+   - `HTML / XHTML + CSS` que involucra a la presentación en lado del cliente.
 
 
 
