@@ -29,7 +29,7 @@
 			String error = request.getParameter("error");
 			if(error != null){
 				if(error.equals("true")){
-					out.print("Te has confundido, por favor vuelve a intentarlo!");
+					out.print("Te has confundido, por favor vuelve a intentarlo.");
 				}
 			}
 		%>

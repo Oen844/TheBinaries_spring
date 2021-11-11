@@ -34,9 +34,9 @@ body{
 
 }
 .words{
-	width: 350px !important;
+	width: 150px !important;
 	padding: 10px;
-	height: 350px;
+	height: 150px;
 	border:none;
 	border-radius: 10px;
 	background-color: #ddf0df;

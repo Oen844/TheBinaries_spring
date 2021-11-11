@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
 body{
 	font-family:sans-serif;
 	display:flex;
@@ -5,6 +6,8 @@ body{
 	justify-content:center;
 	align-items:center;
 	background: url("../imagenes/letrascolores.png");
+	margin:0px;
+	text-align:center;
 }
 .contenido{
 	position: absolute;
@@ -13,7 +16,6 @@ body{
 	width: 400px;
 	height: 200px;
 	margin: -100px 0 0 -200px;
-
 
 
 }
@@ -64,13 +66,6 @@ a{
 }
 
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
-
-body {
-	margin:0px;
-	font-family:'Roboto';
-	text-align:center;
-}
 
 #container {
 	color:#ca4ef37f3;
