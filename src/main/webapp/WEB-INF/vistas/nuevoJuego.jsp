@@ -11,7 +11,9 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+
 	<link href="css/navbar.css" rel="stylesheet" type="text/css">
+
 	<link href="css/nuevoJuego.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -19,13 +21,12 @@
 	<!-- Sidebar -->
 	<div id="sidebar">
 		<header>
-			<a href="#">My App</a>
+			<a href="#">Juego Sopa Letras</a>
 		</header>
 		<ul class="nav">
 			<li>
 				<a href="/lista">
-					<i class="zmdi zmdi-view-dashboard"></i> Tabla de puntos
-				</a>
+					<i class="zmdi zmdi-view-dashboard"></i> Tabla de puntos</a>
 			</li>
 			<li>
 				<a href="/nuevoJuego">
@@ -43,6 +44,7 @@
 	</div>
 	<!-- Content -->
 	<div id="content">
+
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
 				<ul class="nav navbar-nav navbar-right">
@@ -57,11 +59,11 @@
 			</div>
 		</nav>
 		<div class="contenido">
-		<div class="container-fluid">
+
 
 			<div class="bienvenida">
 				<div>
-					<h1>¡Nuevo juego!</h1>
+					<h1>Â¡Nuevo juego!</h1>
 				</div>
 				<div>
 					<form method="post" modelAttribute="nuevoJuego">
@@ -98,12 +100,6 @@
 					<security:authentication property="principal.username" />
 				</security:authorize>
 			</div>
-
-
-
-			<h4><security:authorize access="isAuthenticated()">
-				Bienvenido  <security:authentication property="principal.username" />
-			</security:authorize></h4>
 
 			</p>
 		</div>
