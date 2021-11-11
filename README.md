@@ -8,9 +8,9 @@ pues, teniendo en cuenta que se aplicarán los patrones de diseño MVC y DAO, se
 realizarán las actividades necesarias para la persistencia de los datos.
  
 ## ESTRUCTURA DEL PROYECTO 📂
--   **Contoladores.
--   **Modelos.
--   **Vistas: jsp y css.
+-   Contoladores.
+-   Modelos.
+-   Vistas: jsp y css.
 
 ## SOFTWARE USADO  🛠️
 - **IDE:** El IDE que hemos usado para la implementación del proyecto ha sido IntelliJ y Visual Studio Code.
