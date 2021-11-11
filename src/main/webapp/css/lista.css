@@ -6,6 +6,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	text-rendering: optimizeLegibility;
+	background: url("../imagenes/letrascolores.png");
 }
 
 
@@ -31,7 +32,6 @@ div.table-title {
 /*** Table Styles **/
 
 .table-fill {
-	background: white;
 	border-radius:3px;
 	border-collapse: collapse;
 	height: 320px;
@@ -142,4 +142,5 @@ td.text-center {
 td.text-right {
 	text-align: right;
 }
+
 

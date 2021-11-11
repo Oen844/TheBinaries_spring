@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sopa de letras</title>
+  <title>The Binaries - Sopa de letras</title>
 
  	<link href="css/juego.css" rel="stylesheet" type="text/css">
 	<link href="css/time.css" rel="stylesheet" type="text/css">
@@ -23,7 +23,7 @@
 </head>
 <body onload="empezarDetener()">
 	<div class="container">
-	     <h1>Vamos a jugar!</h1>
+	     <h1>¡Vamos a jugar!</h1>
 		<div class="sopaletras">
 		  	 <div id='juego'></div>
 	   		 <div id='Palabras' class="words"></div>

@@ -2,7 +2,8 @@ body{
 	font-family:sans-serif;
 	display:flex;
 	flex-direction:column;
-
+	justify-content:center;
+	align-items:center;
 	background: url("../imagenes/letrascolores.png");
 }
 .contenido{
@@ -19,9 +20,11 @@ body{
 .bienvenida{
 	display: flex;
 	flex-direction:column;
-
-	width: 320px;
-	height: 368px;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	width: 500px;
+	height: 350px;
 	background-color:#05991d;
 	margin-top:10%;
 	border-radius: 10px;
@@ -72,7 +75,7 @@ body {
 #container {
 	color:#ca4ef37f3;
 	text-transform: uppercase;
-	font-size:36px;
+	font-size:25px;
 	font-weight:bold;
 	margin-top: 70px;
 	margin-left: -15px;

@@ -4,6 +4,7 @@ body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+
 }
 
 /* Toggle Styles */
@@ -32,7 +33,7 @@ body {
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #37474F;
+    background: #bff2c8;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -40,7 +41,7 @@ body {
 }
 
 #sidebar header {
-    background-color: #263238;
+    background-color: #05991d;
     font-size: 20px;
     line-height: 52px;
     text-align: center;
@@ -63,14 +64,14 @@ body {
 #sidebar .nav a{
     background: none;
     border-bottom: 1px solid #455A64;
-    color: #CFD8DC;
+    color: #05991d;
     font-size: 14px;
     padding: 16px 24px;
 }
 
 #sidebar .nav a:hover{
     background: none;
-    color: #ECEFF1;
+    color: #000;
 }
 
 #sidebar .nav a i{

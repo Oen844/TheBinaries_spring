@@ -9,12 +9,10 @@
 	<meta charset="ISO-8859-1">
 	<title>The Binaries - Nuevo juego</title>
 
+	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
-	<link href="css/navbar.css" rel="stylesheet" type="text/css">
-
 	<link href="css/nuevoJuego.css" rel="stylesheet" type="text/css">
+	<link href="css/navbar.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div id="viewport">
@@ -45,25 +43,14 @@
 	<!-- Content -->
 	<div id="content">
 
-		<nav class="navbar navbar-default">
-			<div class="container-fluid">
-				<ul class="nav navbar-nav navbar-right">
-					<li>
-						<a href="#"><i class="zmdi zmdi-notifications text-danger"></i>
-						</a>
-					</li>
-					<li><a href="#"><security:authorize access="isAuthenticated()">
-						<security:authentication property="principal.username" />
-					</security:authorize></a></li>
-				</ul>
-			</div>
-		</nav>
-		<div class="contenido">
+		<div class="container-fluid">
+			<p>
 
 
+			<p>
 			<div class="bienvenida">
 				<div>
-					<h1>Â¡Nuevo juego!</h1>
+					<h1>¡Nuevo juego!</h1>
 				</div>
 				<div>
 					<form method="post" modelAttribute="nuevoJuego">
@@ -105,9 +92,6 @@
 		</div>
 	</div>
 </div>
-
-</div>
-
 
 </body>
 </html>

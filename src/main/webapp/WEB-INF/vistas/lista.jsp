@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Score</title>
+<title>The Binaries - Resultados</title>
 
 
 
@@ -25,7 +25,7 @@
     <!-- Sidebar -->
     <div id="sidebar">
         <header>
-            <a href="#">My App</a>
+            <a href="#">Sopa de Letras</a>
         </header>
         <ul class="nav">
             <li>
@@ -48,32 +48,22 @@
     </div>
     <!-- Content -->
     <div id="content">
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#"><i class="zmdi zmdi-notifications text-danger"></i>
-                        </a>
-                    </li>
-                    <li><a href="#"><security:authorize access="isAuthenticated()">
-                        <security:authentication property="principal.username" />
-                    </security:authorize></a></li>
-                </ul>
-            </div>
+
+
         </nav>
         <div class="container-fluid">
             <p>
 
             <div class="table-title">
                 <div class="table-fill">
-                    <h1>Estas son todas las puntuaciones!</h1>
+                    <h1>Tabla de puntuaciones del juego</h1>
                     <table border="1" cellpadding="5" class="table">
                         <thead class="thead-dark">
                         <tr>
                             <th  scope="col">#</th>
                             <th scope="col">Nombre</th>
                             <th scope="col">Fecha</th>
-                            <th scope="col">Duracion</th>
+                            <th scope="col">Duración</th>
                             <th scope="col">Puntos</th>
                         </tr>
                         </thead>
