@@ -3,22 +3,30 @@ body{
 	font-family:sans-serif;
 	display:flex;
 	flex-direction:column;
-	justify-content:center;
-	align-items:center;
+
 	background: url("../imagenes/letrascolores.png");
 	overflow-x: hidden;
 	font-size: 16px;
 	margin:0px;
 	text-align:center;
 }
+.contenido{
+	position: absolute;
+	left: 50%;
+	top: 350%;
+	width: 400px;
+	height: 200px;
+	margin: -100px 0 0 -200px;
+
+
+
+}
 .bienvenida{
 	display: flex;
 	flex-direction:column;
-	justify-content:center;
-	align-items:center;
-	align-content:center;
-	width: 500px;
-	height: 350px;
+
+	width: 320px;
+	height: 368px;
 	background-color:#05991d;
 	margin-top:10%;
 	border-radius: 10px;
@@ -63,9 +71,11 @@ a{
 	text-transform: uppercase;
 	font-size:25px;
 	font-weight:bold;
-	width:100%;
-	bottom:45%;
-	display:block;
+
+	margin-top: 70px;
+	margin-left: -15px;
+
+
 }
 
 #flip {
