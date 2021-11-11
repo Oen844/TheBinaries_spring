@@ -17,7 +17,7 @@ realizarán las actividades necesarias para la persistencia de los datos.
 - **Google Chrome:** Navegador web.
 - **GitHub**: Usado para la creación de nuestro repositorio.
 
-# FRAMEWORKS Y API'S USADOS
+## FRAMEWORKS Y API'S USADOS
 Los frameworks y APIs usados mas importantes para este proyecto han sido:
 - **Intellij**: IDE inteligente y sensible al contexto para trabajar con Java y otros lenguajes JVM.
 - **Spring**: Framework para el desarrollo de aplicaciones y contenedor de inversión de control, de código abierto para la plataforma Java.
@@ -28,7 +28,7 @@ Los frameworks y APIs usados mas importantes para este proyecto han sido:
 
 
 
-# AUTORES ✒️
+## AUTORES ✒️
  - Francisca María Rodríguez Vázquez
  - Pau Egea Cortes
  - Asier Uruñuela Sánchez
