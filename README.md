@@ -33,8 +33,8 @@ Por un lado, el uso de las dependencias centralizado en el archivo "pom.xml", no
 
 Por otro lado, cabe destacar la configuración que hemos añadido en "application.propperties", cuyo contenido es este: 
 
-- **spring.jpa.generate-ddl =true
-- **spring.jpa.hibernate.hbm2dd1.auto-update
+- **spring.jpa.generate-ddl =true**
+- **spring.jpa.hibernate.hbm2dd1.auto-update**
 
 El objetivo de esta configuración es simplificar la estructuración de una Base de Datos, y de esta manera, se generan automáticamente las tablas con sus respectivas filas a partir de los modelos. 
 
