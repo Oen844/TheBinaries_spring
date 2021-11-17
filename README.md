@@ -40,7 +40,7 @@ El objetivo de esta configuración es simplificar la estructuración de una Base
 
 
 ## AUTORES ✒️
- - Francisca María Rodríguez Vázquez
- - Pau Egea Cortes
- - Asier Uruñuela Sánchez
- - Sofia Isabel Figueroa Arocha 
+ - Francisca María Rodríguez Vázquez [frodriguezvaz@uoc.edu](mailto:frodriguezvaz@uoc.edu)
+ - Pau Egea Cortes [paucast@@uoc.edu](mailto:paucast@uoc.edu)
+ - Asier Uruñuela Sánchez [aurunuelas@uoc.edu](mailto:aurunuelas@uoc.edu)
+ - Sofia Isabel Figueroa Arocha [sfigueroaa@uoc.edu](mailto:sfigueroaa@uoc.edu)
